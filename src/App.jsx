@@ -2,8 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./components/home";
 import EditorPage from "./components/editor-page";
-import { ThemeProvider } from "./context/ThemeContext";
-import { StatusProvider } from "./context/StatusContext";
+import { ThemeProvider } from "./providers/ThemeProvider";
+import { StatusProvider } from "./providers/StatusProvider";
 import StatusPill from "./components/StatusPill";
 
 const App = () => {
